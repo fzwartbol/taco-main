@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: #ffe500;
 }
 
 .main {
@@ -10,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffe500;
 }
 
 .footer {
@@ -57,7 +59,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background-color: #ffe500;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -115,15 +117,15 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
+/*@media (prefers-color-scheme: light) {*/
+/*  .card,*/
+/*  .footer {*/
+/*    border-color: #222;*/
+/*  }*/
+/*  .code {*/
+/*    background-color: #ffe500;*/
+/*  }*/
+/*  .logo img {*/
+/*    filter: invert(1);*/
+/*  }*/
+/*}*/
